@@ -1,0 +1,12 @@
+.features {
+  padding-block: var(--section-padding);
+}
+
+.features-container {
+  padding-inline: 15px;
+}
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}

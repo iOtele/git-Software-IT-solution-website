@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --space-cadet: hsl(224, 48%, 22%);
+  --red-crayola: hsl(342, 100%, 50%);
+  --black-coral: hsl(219, 13%, 44%);
+  --blue-ryb: hsl(244, 86%, 59%);
+  --cultured: hsl(0, 0%, 96%);
+  --white: hsl(0, 0%, 100%);
+  --ff-be-vietnam-pro: "Be Vietnam Pro", sans-serif;
+  --fs-1: 1.875rem;
+  --fs-2: 1.5rem;
+  --fs-3: 1.063rem;
+  --fs-4: 0.875rem;
+  --fs-5: 0.813rem;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --transition: 0.25s ease;
+  --transition-2: 0.5s ease;
+  --section-padding: 30px;
+  --radius-4: 4px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: #f5f5f5;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+.container {
+  padding: 0px 15%;
+}
+.btn {
+  background: whitesmoke;
+  color: #212121;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+.btn img {
+  width: 20px;
+  margin-left: 5px;
+}
+.btn.dark-btn {
+  background: #212ea0;
+  color: whitesmoke;
+  margin-top: 15px;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    padding: 0 5%;
+  }
+  .btn {
+    padding: 14px 22px;
+  }
+}
